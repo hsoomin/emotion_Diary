@@ -40,7 +40,7 @@ const Diary = () => {
 
     if(!data){
         return (
-            <div className='DiaryPage'>로딩중입니다...</div>
+            <div className='DiaryPage'>로딩중입니다..</div>
         );
     }else{
         const currentEmotionData=emotionList.find((it)=>parseInt(it.emotion_id)===parseInt(data.emotion))
